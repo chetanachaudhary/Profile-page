@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile page</title>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <main class="container">
+
+                
+            <div class="sub-container">
+                <div class="heading"><h1>Profile</h1></div>
+                
+                <div class="profile-pic-div">
+                    <img src="Avater.png" alt="Avater Image" id="ProfileImage">
+                    <input type="file" id="file">
+                    <label for="file" id="uploadBtn">Choose Photo</label>
+                </div>
+
+                <div class="details">
+                    <form>
+                            <div class="Info">
+                                <label for="FirstName">First Name</label>
+                            <input type="text" placeholder="Enter your First name" id="firstName"
+                            maxlength="25"
+                             required/>
+                            </div>
+                            <div class="Info">
+                                <label for="LastName">Last Name</label>
+                            <input type="text" placeholder="Enter your Last Name" id="lastName" 
+                            maxlength="25" required/>
+                            </div>
+                            <div class="Info">
+                                <label for="EmailAddress">Email address</label>
+                            <input type="email" placeholder="Enter your Email" id="Email" 
+                            maxlength="35" required/>
+                            </div>
+
+                            <button id="Save" type="submit">Save</button>
+                        </label>
+                    </form>
+
+                </div>
+
+
+
+
+            </div>
+
+        </main>
+        <script src="profile.js"></script>
+    </body>
+</html>
